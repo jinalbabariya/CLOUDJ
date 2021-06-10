@@ -668,7 +668,7 @@ a {
 }
 
 .container {
-    max-width: 1220px;
+    max-width: 1140px;
 }
 
 .hero__tagline{
@@ -685,7 +685,7 @@ a {
 
 @media screen and (min-width:768px) {
     .hero__image {
-        align-content: center;
+        
     }
     
     .hero__content{
