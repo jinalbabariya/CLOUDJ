@@ -8,7 +8,7 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="CSS/stylee.css">
 </head>
 
@@ -39,7 +39,7 @@
             <img class="hero__image" src="images/images/banner1.webp" alt="banner">
         </div>
     </div>
-    <div class=" block container block-domain">
+    <div class=" block container block-domain" data-aos="zoom-in">
         <header class="block__header">
             <h2>Starting at ₹749 per month</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In tempore enim fugit dolorum? Ex, ducimus!</p>
@@ -62,7 +62,7 @@
             <li> .xyz ₹749</li>
         </ul>
     </div>
-    <section class="block container block-plans">
+    <section class="block container block-plans" data-aos="fade-up">
         <div class="grid grid--1x3">
             <div class="plan">
                 <div class="card card--secondary">
@@ -133,7 +133,7 @@
         <header class="block__header">
             <h2>Host on the Cloud to Keep Growing</h2>
         </header>
-        <article class="grid grid--12 feature">
+        <article class="grid grid--12 feature" data-aos="fade-right">
             <div class="feature__content">
                 <span class="icon-container">
                     <svg class="icon icon--primary">
@@ -151,7 +151,7 @@
                 <img class="feature__image" src="images/images/easy@2x.jpg" alt="">
             </picture>
         </article>
-        <article class="grid grid--12 feature">
+        <article class="grid grid--12 feature" data-aos="fade-left">
             <div class="feature__content">
                 <span class="icon-container">
                     <svg class="icon icon--primary">
@@ -169,7 +169,7 @@
                 <img class="feature__image" src="images/images/fast@2x.jpg" alt="">
             </picture>
         </article>
-        <article class="grid grid--12 feature">
+        <article class="grid grid--12 feature" data-aos="fade-right">
             <div class="feature__content">
                 <span class="icon-container">
                     <svg class="icon icon--primary">
@@ -187,7 +187,7 @@
                 <img class="feature__image" src="images/images/wordpress@2x.jpg" alt="">
             </picture>
         </article>
-        <article class="grid grid--12 feature">
+        <article class="grid grid--12 feature" data-aos="fade-left">
             <div class="feature__content">
                 <span class="icon-container">
                     <svg class="icon icon--primary">
@@ -211,12 +211,12 @@
             <h2 class="block__heading">User friendly Control Panel</h3>
         </header>
         <div class="container grid grid--12">
-            <picture class="block-showcse__image">
+            <picture class="block-showcse__image" data-aos="fade-right">
                 <source type="images/webp" srcset="images/inages/ipad.webp 1x,images/images/ipad@2x.webp 2x">
                 <source type="images/png" srcset="images/inages/ipad.png 1x,images/images/ipad@2x.png 2x">
                 <img class="block-showcse__image" src="images/images/ipad.png" alt="ipad">
             </picture>
-            <ul class="list">
+            <ul class="list" data-aos="fade-up">
                 <li>
                     <div class="media">
                         <div class="media__image">
@@ -277,7 +277,7 @@
             </ul>
         </div>
     </section>
-    <section class="block">
+    <section class="block" data-aos="zoom-in">
         <header class="block__header">
             <h2>What Our Customer are Saying</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, error.</p>
@@ -402,6 +402,10 @@
         </div>
     </footer>
     <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
